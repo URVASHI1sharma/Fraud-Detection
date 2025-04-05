@@ -47,7 +47,3 @@ Trained and compared three models:
 - Selected Model: **XGBoost Classifier**
 - Optimized for threshold = `0.9` for better precision.
 - Serialized using `pickle` for deployment and reuse.
-
-```python
-with open("xgboost_model.pkl", "wb") as f:
-    pickle.dump(xgb_model, f)
